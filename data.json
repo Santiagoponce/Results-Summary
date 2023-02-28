@@ -1,22 +1,72 @@
 [
   {
-    "category": "Reaction",
-    "score": 80,
-    "icon": "./assets/images/icon-reaction.svg"
+    "name":"Santiago",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
   },
   {
-    "category": "Memory",
-    "score": 92,
-    "icon": "./assets/images/icon-memory.svg"
+    "name":"Luciana",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
   },
   {
-    "category": "Verbal",
-    "score": 61,
-    "icon": "./assets/images/icon-verbal.svg"
+    "name":"Ivan",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
   },
   {
-    "category": "Visual",
-    "score": 72,
-    "icon": "./assets/images/icon-visual.svg"
+    "name":"Barbara",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
+  },
+  {
+    "name":"Hector",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
+  },
+  {
+    "name":"Pedro",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
+  },
+  {
+    "name":"Javier",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
+  },
+  {
+    "name":"Angeles",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
+  },
+  {
+    "name":"Priscila",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
+  },
+  {
+    "name":"Sara",
+    "Reaction_score": 80,
+    "Memory_score": 80,
+    "Verbal_score": 80,
+    "Visual_score": 80
   }
 ]
