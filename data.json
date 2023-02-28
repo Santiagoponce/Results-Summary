@@ -1,72 +1,72 @@
 [
   {
     "name":"Santiago",
-    "Reaction_score": 80,
+    "Reaction_score": 70,
     "Memory_score": 80,
-    "Verbal_score": 80,
-    "Visual_score": 80
+    "Verbal_score": 90,
+    "Visual_score": 100
   },
   {
     "name":"Luciana",
     "Reaction_score": 80,
-    "Memory_score": 80,
-    "Verbal_score": 80,
-    "Visual_score": 80
+    "Memory_score": 60,
+    "Verbal_score": 100,
+    "Visual_score": 50
   },
   {
     "name":"Ivan",
-    "Reaction_score": 80,
-    "Memory_score": 80,
-    "Verbal_score": 80,
-    "Visual_score": 80
+    "Reaction_score": 100,
+    "Memory_score": 45,
+    "Verbal_score": 90,
+    "Visual_score": 70
   },
   {
     "name":"Barbara",
-    "Reaction_score": 80,
-    "Memory_score": 80,
-    "Verbal_score": 80,
+    "Reaction_score": 55,
+    "Memory_score": 100,
+    "Verbal_score": 100,
     "Visual_score": 80
   },
   {
     "name":"Hector",
-    "Reaction_score": 80,
+    "Reaction_score": 100,
     "Memory_score": 80,
-    "Verbal_score": 80,
-    "Visual_score": 80
+    "Verbal_score": 50,
+    "Visual_score": 75
   },
   {
     "name":"Pedro",
-    "Reaction_score": 80,
+    "Reaction_score": 100,
     "Memory_score": 80,
     "Verbal_score": 80,
-    "Visual_score": 80
+    "Visual_score": 100
   },
   {
     "name":"Javier",
-    "Reaction_score": 80,
-    "Memory_score": 80,
-    "Verbal_score": 80,
+    "Reaction_score": 90,
+    "Memory_score": 70,
+    "Verbal_score": 45,
     "Visual_score": 80
   },
   {
     "name":"Angeles",
     "Reaction_score": 80,
-    "Memory_score": 80,
+    "Memory_score": 100,
     "Verbal_score": 80,
-    "Visual_score": 80
+    "Visual_score": 40
   },
   {
     "name":"Priscila",
-    "Reaction_score": 80,
+    "Reaction_score": 90,
     "Memory_score": 80,
-    "Verbal_score": 80,
-    "Visual_score": 80
+    "Verbal_score": 70,
+    "Visual_score": 100
   },
   {
     "name":"Sara",
     "Reaction_score": 80,
     "Memory_score": 80,
-    "Verbal_score": 80,
-    "Visual_score": 80
+    "Verbal_score": 60,
+    "Visual_score": 70
   }
 ]
