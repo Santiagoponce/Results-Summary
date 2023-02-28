@@ -14,7 +14,7 @@ function percentScorePosition(scores,actual_score)
 
 function mean(record)
 {
-    
+    console.log("mean");
 }
 
 
@@ -36,5 +36,5 @@ xhr.addEventListener("load",(e)=>
 
 
 
-xhr.open('GET',"https://raw.githubusercontent.com/Santiagoponce/Resuts-Summary/5a3fb474fc4fe3d6784d33294d8e1b23df73785f/data.json",false);
+xhr.open('GET',"https://raw.githubusercontent.com/Santiagoponce/Results-Summary/master/data.json",false);
 xhr.send();
