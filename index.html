@@ -3,15 +3,66 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="css/reset.css">
+  <link rel="stylesheet"href="css/style.css">
+
   <title>Frontend Mentor | Results summary component</title>
 
 
 </head>
 <body>
+  <main>
+          <article class="score-general">
+            <h2 class="score-general__tittle">Your Result</h2>
+            <div class="score-general__result">
+              <data value="72.00"class="score-general__value">72</data>
+            </div>
+            <h2 class="score-general__qualifier">Great</h2>
+            <p class="score-general__info">Your scored higher than 65% of the people who have taken these tests.</p>
+          </article>
+
+          <article class="score-segmentation">
+            <h2 class="score-segmentation__title">Summary</h2>
+            
+            <ul class="score-segmentation__list">
+
+              <li class="score-segmentation__item reaction">
+                  <p class="score-segmentation__item-name">Reaction</p>
+                  <data value="72.00"class="score-segmentation__value">72</data>
+              </li>
+
+              <li class="score-segmentation__item Memory">
+                <p class="score-segmentation__item-name">Memory</p>
+                <data value="72.00"class="score-segmentation__value">72</data>
+              </li>
+
+              <li class="score-segmentation__item Verbal">
+                <p class="score-segmentation__item-name">Verbal</p>
+                <data value="72.00"class="score-segmentation__value">72</data>
+              </li>
+
+              <li class="score-segmentation__item Visual">
+                <p class="score-segmentation__item-name">Visual</p>
+                <data value="72.00"class="score-segmentation__value">72</data>
+              </li>
+
+            </ul>
+            
+            <button class="score-segmentation__button">Continue</button>
+          </article>
+  </main>
 
 
+  <footer>
+    <img>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Santiagoponce">Ponce Santiago</a>.
+    </p>
+  </footer>
 </body>
 </html>
