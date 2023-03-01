@@ -108,7 +108,7 @@ function display_results()
     listItem[3].textContent=inputs[4].value;
     result=parseInt(inputs[1].value)+parseInt(inputs[2].value)+parseInt(inputs[3].value)+parseInt(inputs[4].value);
     result/=4;
-    mean_result.textContent=result;
+    mean_result.textContent=Math.round(result);
 
     resultMsg.textContent= `Your scored higher than ${percentScorePosition(mean_scores,result)}%of the people who taken these tests.`;
 
