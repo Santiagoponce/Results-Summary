@@ -19,7 +19,7 @@
           <article class="score-general">
             <h2 class="score-general__tittle">Mean Result</h2>
             <div class="score-general__result">
-              <data value="72.00"class="score-general__value">72</data>
+              <data value=""class="score-general__value">00</data>
             </div>
             <h2 class="score-general__qualifier">Great</h2>
             <p class="score-general__info">This is the average score of the people who have taken these tests.</p>
@@ -32,33 +32,52 @@
 
               <li class="score-segmentation__item reaction">
                   <p class="score-segmentation__item-name">Reaction</p>
-                  <data value="72.00"class="score-segmentation__value">72</data>
+                  <data value="72.00"class="score-segmentation__value">00.0</data>
               </li>
 
               <li class="score-segmentation__item Memory">
                 <p class="score-segmentation__item-name">Memory</p>
-                <data value="72.00"class="score-segmentation__value">72</data>
+                <data value="72.00"class="score-segmentation__value">00.0</data>
               </li>
 
               <li class="score-segmentation__item Verbal">
                 <p class="score-segmentation__item-name">Verbal</p>
-                <data value="72.00"class="score-segmentation__value">72</data>
+                <data value="72.00"class="score-segmentation__value">00.0</data>
               </li>
 
               <li class="score-segmentation__item Visual">
                 <p class="score-segmentation__item-name">Visual</p>
-                <data value="72.00"class="score-segmentation__value">72</data>
+                <data value="72.00"class="score-segmentation__value">00.0</data>
               </li>
 
             </ul>
             
             <button class="score-segmentation__button">I can do it better</button>
           </article>
+
+
+         <form name="score-input-form"class="score-input">
+          <label for="name-input">Your name</label>
+          <input placeholder="Ej:Edward Elric"required id="name-input"type="text" maxlength="25" minlength="1">
+          
+          <label for="reaction-input">Reaction</label>
+          <input required placeholder="0-100" id="reaction-input"type="number" max="100" min="0" step="1">
+
+          <label for="memory-input">Memory</label>
+          <input placeholder="0-100" required id="memory-input"type="number" max="100" min="0" step="1">
+
+          <label for="verbal-input">Verbal</label>
+          <input  placeholder="0-100"required id="verbal-input"type="number" max="100" min="0" step="1">
+
+          <label for="visual-input">Visual</label>
+          <input placeholder="0-100" required id="visual-input" type="number" max="100" min="0" step="1">
+
+          <input required id="submit-input" type="submit" value="Send">
+         </form>
   </main>
 
 
   <footer>
-    <img>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://github.com/Santiagoponce">Ponce Santiago</a>.
